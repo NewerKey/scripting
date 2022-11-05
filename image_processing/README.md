@@ -9,9 +9,11 @@ Requirement: Python 3.x.x
 
 # How it works (JPGtoPNGConverter)
 
-- To access Pokedex and new folders(arguments) via path
-  `jpeg_to_png_converter.py Pokedex/ new/`
+- To access Pokedex and new folders(arguments)
 - check if new folder exists, if not create
 - loop through Pokedex folder
 - covert images to png
 - save to the new folder
+
+To run the program,
+`jpeg_to_png_converter.py Pokedex/ new/`
